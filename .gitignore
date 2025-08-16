@@ -1,0 +1,18 @@
+# Ignora o ambiente virtual do Python
+.venv/
+venv/
+
+# Ignora a pasta de dados gerada pelo pipeline
+data/
+
+# Ignora arquivos de log e temporários do Spark e Python
+*.log
+*.pyc
+__pycache__/
+
+# Ignora arquivos de sistema específicos do Windows (se aplicável)
+Thumbs.db
+.DS_Store
+
+# Ignora o arquivo de variáveis de ambiente
+.env

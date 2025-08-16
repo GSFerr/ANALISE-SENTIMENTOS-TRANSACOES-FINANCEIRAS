@@ -1,0 +1,15 @@
+# Dependências para manipulação de dados
+pandas==2.2.2
+
+# Dependências para processamento de dados com Spark
+pyspark==3.5.1
+
+# Dependência para interação com a AWS S3
+boto3==1.34.135
+
+# Dependências para simular a análise de sentimento (NLP)
+nltk==3.8.1
+textblob==0.18.0.post0
+
+# Dependências para testes
+pytest==8.2.2
