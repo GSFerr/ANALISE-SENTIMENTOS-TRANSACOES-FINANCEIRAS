@@ -94,7 +94,7 @@ def process_data(spark, bronze_path, silver_path):
     logging.info("Salvando o DataFrame processado na camada Silver...")
     
     # Remove colunas que não são mais necessárias
-    final_df = processed_df.drop("review_id", "review_text")
+    final_df = processed_df.drop("review_id", "review_text", "review_date")
 
     # Garante que o diretório de saída existe
     if not os.path.exists(silver_path):
